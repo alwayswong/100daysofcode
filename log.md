@@ -1,8 +1,12 @@
-#Log
+Log
 
-Day 0: 
-Today's Progress: 
+Day 0: February 7, 2020
+Today's Progress: Set up #100daysofcode repo. Brainstormed projects that interest me 
 
-Thoughts: 
+Thoughts: Excited to start!
 
-Link to work: Calculator App
+
+Day 1: February 7, 2020
+Today's Progress: Started with some analysis of FPL stuff with pandas. Gundogan and Martinez still killing me. Is Lingard actually good (besides when he plays Fulham)?
+
+Thoughts: Used mostly existing knowledge and Google assist
