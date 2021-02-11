@@ -4,7 +4,7 @@ Day 4: February 10, 2020
 Today's Progress: Analyzed LEGO data sets. Made bars scatters and other plots. Once the syntax is semi-memorized it is very easy to manipulate and even guess how unfamilar functions work
 
 Thoughts: Trucking along having fun. More practice with pandas and mpl -- feeling excited to be relatively comfortable in pandas
---
+--------
 Day 3: February 9, 2020
 Today's Progress: Explored graphing with MatPLotLib, graphing multiple lines, rolling averages, and messing around with graph attributes
 
