@@ -1,5 +1,11 @@
 # Log
 
+## **Day 5:** February 11, 2020
+Today's Progress: Analyzed a few different data sets, most notably the BTC price chart pre-current bull market. Lots of full little edits on the charts as well as rolling averages which is new to me.
+
+Thoughts: Nothing notable. Still having fun :)
+
+
 ## **Day 4:** February 10, 2020
 Today's Progress: Analyzed LEGO data sets. Made bars scatters and other plots. Once the syntax is semi-memorized it is very easy to manipulate and even guess how unfamilar functions work
 
