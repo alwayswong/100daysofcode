@@ -1,5 +1,10 @@
 # Log
 
+## **Day 6:** February 12, 2020
+Today's Progress: A ton of work with Plotly. Box plots, scatter plots, etc. All sorts of different customizations and graph edits. Syntax is more straightforward than pyplot imo
+
+Thoughts: Defintely the toughest day so far. Not only fun but very insightful -- looking forward to more challenges like this :)
+
 ## **Day 5:** February 11, 2020
 Today's Progress: Analyzed a few different data sets, most notably the BTC price chart pre-current bull market. Lots of full little edits on the charts as well as rolling averages which is new to me.
 
