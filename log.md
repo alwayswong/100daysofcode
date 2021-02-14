@@ -47,3 +47,4 @@ Thoughts: Excited to start!
 
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
+* Deep Dive on machine learning techniques
