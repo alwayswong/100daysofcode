@@ -1,5 +1,10 @@
 # Log
 
+## **Day 7:** February 13, 2020
+Today's Progress: Worked with Numpy arrays. Lots of new concepts that I wasn't familiar with as well as refreshing memory on slicing and image conversions.
+
+Thoughts: Have never went deep with Numpy and this was a good way to start that. Feeling comfortable with the concepts although some of the advanced math concepts will take more time to fully understand should I need them for a project down the line (aka not going to sink too much time into the theory of it)
+
 ## **Day 6:** February 12, 2020
 Today's Progress: A ton of work with Plotly. Box plots, scatter plots, etc. All sorts of different customizations and graph edits. Syntax is more straightforward than pyplot imo
 
