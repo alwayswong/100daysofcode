@@ -40,5 +40,5 @@ Today's Progress: Set up #100daysofcode repo. Brainstormed projects that interes
 
 Thoughts: Excited to start!
 
-## Project Ideas
+## Backlog Project Ideas
 * Automatically book tee times when they are released
