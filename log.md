@@ -39,3 +39,6 @@ Thoughts: Used mostly existing knowledge and Google assist
 Today's Progress: Set up #100daysofcode repo. Brainstormed projects that interest me 
 
 Thoughts: Excited to start!
+
+## Project Ideas
+* Automatically book tee times when they are released
