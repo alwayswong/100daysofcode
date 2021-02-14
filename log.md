@@ -1,5 +1,16 @@
 # Log
 
+## **Day 8:** February 14, 2020
+Today's Progress: Lots of work with Seaborn and different graph types (shoutout Bubble graphs). Also refreshing memory with Linear Regressions
+
+Basic Linear Regression Steps:
+* Create Linear Regression object
+* Create x and y variables to feed into the object
+* Fit the regression object with the x and y varibles
+* Check goodness of fit
+
+Thoughts: Super super excited to get into more advanced machine learning techniques, but this was a good refresher with some new concepts as well
+
 ## **Day 7:** February 13, 2020
 Today's Progress: Worked with Numpy arrays. Lots of new concepts that I wasn't familiar with as well as refreshing memory on slicing and image conversions.
 
