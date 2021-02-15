@@ -1,5 +1,12 @@
 # Log
 
+## **Day 9:** February 15, 2020
+Today's Progress: Switched gears a bit because I got into a rabbit hole with Selenium. Did some basic commands including going to a location, finding data, clicking, typing data etc. 
+
+Thoughts: This one was really fun. I imagine I'll spend some more of my 100 days in Selenium building some more interesting use cases.
+
+Link: [Day 9](days/Day_9.py)
+
 ## **Day 8:** February 14, 2020
 Today's Progress: Lots of work with Seaborn and different graph types (shoutout Bubble graphs). Also refreshing memory with Linear Regressions
 
@@ -11,7 +18,7 @@ Basic Linear Regression Steps:
 
 Thoughts: Super super excited to get into more advanced machine learning techniques, but this was a good refresher with some new concepts as well
 
-Link: [Day 9](days/Day_9.py)
+Link: [Day 8](days/Seaborn.ipynb)
 
 ## **Day 7:** February 13, 2020
 Today's Progress: Worked with Numpy arrays. Lots of new concepts that I wasn't familiar with as well as refreshing memory on slicing and image conversions.
