@@ -11,6 +11,8 @@ Basic Linear Regression Steps:
 
 Thoughts: Super super excited to get into more advanced machine learning techniques, but this was a good refresher with some new concepts as well
 
+Link: [Day 9](days/Day_9.py)
+
 ## **Day 7:** February 13, 2020
 Today's Progress: Worked with Numpy arrays. Lots of new concepts that I wasn't familiar with as well as refreshing memory on slicing and image conversions.
 
