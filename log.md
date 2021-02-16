@@ -1,5 +1,12 @@
 # Log
 
+## **Day 10:** February 16, 2020
+Today's Progress: More Selenium today. Getting familiar with the methods before some of the more complex stuff like waiting and automating whole processes.
+
+Thoughts: Fun and tough. Started on a more challenging stuff that I got stuck on. Want to spend more time here and Data Science then figure out where to go from there
+
+Link: [Selenium 2 - AutoFill](days/FormAutofill.py)
+
 ## **Day 9:** February 15, 2020
 Today's Progress: Switched gears a bit because I got into a rabbit hole with Selenium. Did some basic commands including going to a location, finding data, clicking, typing data etc. 
 
