@@ -1,5 +1,12 @@
 # Log
 
+## **Day 11:** February 17 2020
+Today's Progress: More Selenium today. Made an automated job application script. It needs more work to accomodate different types of Easy Apply (if there are multiple click throughs) but this is a base version
+
+Thoughts: Very challenging. Finding elements was a bit of a struggle but not too bad. However the logic to run this on a loop is very challenging and something I need to spend more time with. Baby steps.
+
+Link: [Selenium Linkedin](projects/Linkedin.py)
+
 ## **Day 10:** February 16, 2020
 Today's Progress: More Selenium today. Getting familiar with the methods before some of the more complex stuff like waiting and automating whole processes.
 
