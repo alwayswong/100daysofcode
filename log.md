@@ -1,5 +1,12 @@
 # Log
 
+## **Day 11:** February 18 2020
+Today's Progress: Basically just a ton of practice with loops. Captured some of it in this file. Nothing fancy just practice.
+
+Thoughts: Going back to the fundamentals. Realized I need to get crisper on loops so drilling different loops today. Hopefully this will allow me to apply these concepts to Selenium and DS work
+
+Link: [For Loops Practice](projects/Loops.py)
+
 ## **Day 11:** February 17 2020
 Today's Progress: More Selenium today. Made an automated job application script. It needs more work to accomodate different types of Easy Apply (if there are multiple click throughs) but this is a base version
 
