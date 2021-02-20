@@ -1,5 +1,12 @@
 # Log
 
+## **Day 12:** February 19 2020
+Today's Progress: More drilling with while loops. Online IDE so no code link today
+
+Thoughts: This will be really helpful in the future. Not super exciting to just practice but certainly will help save time down the road
+
+Link: [For Loops Practice](projects/Loops.py)
+
 ## **Day 11:** February 18 2020
 Today's Progress: Basically just a ton of practice with loops. Captured some of it in this file. Nothing fancy just practice.
 
