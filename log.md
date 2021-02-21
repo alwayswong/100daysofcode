@@ -88,7 +88,7 @@ Today's Progress: Did some rudimentory analysis with salaries. Most importantly 
 
 Thoughts: Lots of refreshing memory and getting more comfortable with annotations. Nothing too complicated.
 
-Link: [Pandas 2](projects/Messing around with salaries.ipynb)
+Link: [Pandas test](projects/Messing around with salaries.ipynb)
 
 ## **Day 1:** February 8, 2020
 Today's Progress: Started with some analysis of FPL stuff with pandas. Gundogan and Martinez still killing me. Is Lingard actually good (besides when he plays Fulham)?
