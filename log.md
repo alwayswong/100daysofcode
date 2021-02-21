@@ -1,5 +1,12 @@
 # Log
 
+## **Day 12:** February 19 2020
+Today's Progress: More drilling with fundamental concepts. Made a rock, paper, scissors game
+
+Thoughts: Having fun, will resume DS work in about a week after more of these drills
+
+Link: [Control Flow Drilling](projects/rps.py)
+
 ## **Day 11:** February 18 2020
 Today's Progress: Basically just a ton of practice with loops. Captured some of it in this file. Nothing fancy just practice.
 
