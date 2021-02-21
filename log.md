@@ -1,4 +1,11 @@
 # Log
+## **Day 14:** February 21, 2020
+Today's Progress: Built a coffee machine. Fairly straightforward and good practice with indexing and a precursor to OOP work that I also started.
+
+Thoughts: Consistency is key. Every day I'm getting more and mroe comfortable with syntax and concepts - Onwards!
+
+Link: [Coffee Machine](projects/coffee_machine.py)
+
 
 ## **Day 13:** February 20, 2020
 Today's Progress: More drilling with fundamental concepts. Made a rock, paper, scissors game
