@@ -1,13 +1,13 @@
 # Log
 
+## **Day 13:** February 20 2020
+Today's Progress: More drilling with fundamental concepts. Made a rock, paper, scissors game
+
+Thoughts: Having fun, will resume DS work in about a week after more of these drills
+
+Link: [Control Flow Drilling](projects/rps.py)
+
 ## **Day 12:** February 19 2020
-Today's Progress: More drilling with while loops. Online IDE so no code link today
-
-Thoughts: This will be really helpful in the future. Not super exciting to just practice but certainly will help save time down the road
-
-Link: N/A
-
-## **Day 11:** February 18 2020
 Today's Progress: Basically just a ton of practice with loops. Captured some of it in this file. Nothing fancy just practice.
 
 Thoughts: Going back to the fundamentals. Realized I need to get crisper on loops so drilling different loops today. Hopefully this will allow me to apply these concepts to Selenium and DS work
