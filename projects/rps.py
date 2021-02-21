@@ -59,7 +59,7 @@ scissors = '''
 ---.__(___)
 '''
 
-# TODO take input
+# take input
 while True:
     user = int(input("0 = Rock, 1 = Paper, 2 = Scissors?"))
     if user in (0,1,2):
@@ -67,10 +67,10 @@ while True:
         break
     else:
         print("Enter a valid choice")
-# TODO generate random output as opponent
+# generate random output as opponent
 computer = random.randint(0,2)
 
-# TODO describe game
+# describe game
 
 
 if (user == 0):
@@ -88,7 +88,7 @@ elif computer == 1:
     print(paper)
 else:
     print(scissors)
-# TODO tell the user if they won or lost
+# tell the user if they won or lost
 
 if computer == user:
     print("Tie!")
