@@ -1,6 +1,6 @@
 # Log
 
-## **Day 13:** February 19 2020
+## **Day 13:** February 20 2020
 Today's Progress: More drilling with fundamental concepts. Made a rock, paper, scissors game
 
 Thoughts: Having fun, will resume DS work in about a week after more of these drills
