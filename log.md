@@ -1,4 +1,4 @@
-# Log 22
+# Log
 
 ## **Day 13:** February 20, 2020
 Today's Progress: More drilling with fundamental concepts. Made a rock, paper, scissors game
