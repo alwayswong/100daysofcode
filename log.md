@@ -4,7 +4,7 @@ Today's Progress: This was an easy one. Redoing the coffee machine with OOP whic
 
 Thoughts: I can see how OOP is helpful although its not nearly as fun as the actual logic creation. I'm sure that'll change as I write more and more.
 
-Link: [Coffee Machine](projects/coffee_machine.py)
+Link: [OOP Coffee Machine](projects/Coffee)
 
 ## **Day 14:** February 21, 2020
 Today's Progress: Built a coffee machine. Fairly straightforward and good practice with indexing and a precursor to OOP work that I also started.
