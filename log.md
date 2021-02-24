@@ -1,5 +1,5 @@
 # Log
-## **Day 15:** February 22, 2020
+## **Day 16:** February 23, 2020
 Today's Progress: Mini game of hangman for old times sake
 
 Thoughts: Happy I decided to go back to the basics with loops and control flow. Feeling much more comfortable even after a few extra days of practice
