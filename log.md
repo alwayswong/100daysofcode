@@ -1,5 +1,12 @@
 # Log
 ## **Day 15:** February 22, 2020
+Today's Progress: Mini game of hangman for old times sake
+
+Thoughts: Happy I decided to go back to the basics with loops and control flow. Feeling much more comfortable even after a few extra days of practice
+
+Link: [Hangman](projects/Hangman)
+
+## **Day 15:** February 22, 2020
 Today's Progress: This was an easy one. Redoing the coffee machine with OOP which simplifies the code a lot
 
 Thoughts: I can see how OOP is helpful although its not nearly as fun as the actual logic creation. I'm sure that'll change as I write more and more.
