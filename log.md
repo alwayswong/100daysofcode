@@ -126,3 +126,5 @@ Thoughts: Excited to start!
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
 * Deep Dive on machine learning techniques
+* 9 (dictionaries), 11 (math), 12(best practices), 13(debugging), 25, 26
+* lots of days left to learn!!
