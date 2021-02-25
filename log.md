@@ -1,4 +1,11 @@
 # Log
+## **Day 17:** February 24, 2020
+Today's Progress: Deep dive with nuances of dictionaries -- should be very helpful for DS work. No discernible output today
+
+Thoughts: More learning :)
+
+Link: N/A
+
 ## **Day 16:** February 23, 2020
 Today's Progress: Mini game of hangman for old times sake
 
