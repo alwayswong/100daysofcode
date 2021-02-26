@@ -1,4 +1,11 @@
 # Log
+## **Day 18:** February 25, 2020
+Today's Progress: A few functions and mini games that were fun to make. Most notably, a program that take a bunch of bidders and bids and output the highest bidder
+
+Thoughts: Fairly easy challenge (wouldn't have said that a few weeks ago). Excited to keep psuhing.
+
+Link: [Bidding Game](projects/dictionaries)
+
 ## **Day 17:** February 24, 2020
 Today's Progress: Deep dive with nuances of dictionaries -- should be very helpful for DS work. No discernible output today
 
