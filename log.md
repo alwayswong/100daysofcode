@@ -1,4 +1,11 @@
 # Log
+## **Day 20:** February 27, 2021
+Today's Progress: Create a blackjack game. Very fun application of skills, let's go to Vegas!
+
+Thoughts: Again flow chart (and previous knowledge) was super helpful for creating this game. Reps, reps, reps! We move.
+
+Link: [21](projects/Blackjack)
+
 ## **Day 19:** February 26, 2021
 Today's Progress: Made a quick guessing game. Probably could be cleaner code if I create defintions but mainly practicing the logic here. Will start to work in best practices moving forward.
 
