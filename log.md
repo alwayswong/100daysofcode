@@ -1,4 +1,11 @@
 # Log
+## **Day 19:** February 26, 2020
+Today's Progress: Made a quick guessing game. Probably could be cleaner code if I create defintions but mainly practicing the logic here. Will start to work in best practices moving forward.
+
+Thoughts: Creating a 5 minute flow chart at the beginning is soooo helpful. I was skeptical in the beginning but will be doing this before any coding I do from here on out.
+
+Link: [Guessing Game](projects/Scope)
+
 ## **Day 18:** February 25, 2020
 Today's Progress: A few functions and mini games that were fun to make. Most notably, a program that take a bunch of bidders and bids and output the highest bidder
 
@@ -140,5 +147,5 @@ Thoughts: Excited to start!
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
 * Deep Dive on machine learning techniques
-* 9 (dictionaries), 11 (math), 12(best practices), 13(debugging), 25, 26
+* 11 (math), 12(best practices), 13(debugging), 25, 26, DS Deep dive, 10 (functions)
 * lots of days left to learn!!
