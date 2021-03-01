@@ -1,4 +1,11 @@
 # Log
+## **Day 21:** February 28, 2021
+Today's Progress: Working through fundamentals of functions with arguments and parameters. Lots of drilling.
+
+Thoughts: Realized I need to spend some time on writing clean code with functions even if the logic of the functions is more fun. This should help
+
+Link: N/A
+
 ## **Day 20:** February 27, 2021
 Today's Progress: Create a blackjack game. Very fun application of skills, let's go to Vegas!
 
