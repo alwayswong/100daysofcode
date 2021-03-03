@@ -25,6 +25,7 @@
 #
 # paint(2,4)
 
+# prime number checker
 def prime_check(number):
     prime = 'Y'
     for i in range(2,number-1):

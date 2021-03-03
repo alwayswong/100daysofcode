@@ -1,4 +1,11 @@
 # Log
+## **Day 23:** March 2, 2021
+Today's Progress: Slowly making progress through functions. 
+
+Thoughts: This is going to help a ton with writing clean code. Excited
+
+Link: [Function Practice](projects/Functions)
+
 ## **Day 22:** March 1, 2021
 Today's Progress: Slowly making progress through functions. 
 
