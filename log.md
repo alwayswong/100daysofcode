@@ -1,8 +1,8 @@
 # Log
 ## **Day 23:** March 2, 2021
-Today's Progress: Slowly making progress through functions. 
+Today's Progress: Encoder 
 
-Thoughts: This is going to help a ton with writing clean code. Excited
+Thoughts: More practice with functions.
 
 Link: [Function Practice](projects/Functions)
 
