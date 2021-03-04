@@ -1,4 +1,11 @@
 # Log
+## **Day 24:** March 3, 2021
+Today's Progress: Practice 
+
+Thoughts: Need to get some more deep flow time. Practice is good but just doing surface level drilling recently
+
+Link: N/A
+
 ## **Day 23:** March 2, 2021
 Today's Progress: Encoder 
 
