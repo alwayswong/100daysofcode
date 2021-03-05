@@ -1,4 +1,11 @@
 # Log
+## **Day 26:** March 5, 2021
+Today's Progress: Made a quick game to guess who has more followers. 
+
+Thoughts: Easy Logic - I think I'm getting better at this :)
+
+Link: [HL](projects/Higher%20Lower)
+
 ## **Day 25:** March 4, 2021
 Today's Progress: Practice Debugging different issues 
 
