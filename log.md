@@ -1,4 +1,11 @@
 # Log
+## **Day 25:** March 4, 2021
+Today's Progress: Practice Debugging different issues 
+
+Thoughts: This honestly was not that helpful as Google is basically always the best debugger anyways. Either way, the more practice the better
+
+Link: [Debugging](projects/Debugging)
+
 ## **Day 24:** March 3, 2021
 Today's Progress: Practice 
 
@@ -182,5 +189,5 @@ Thoughts: Excited to start!
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
 * Deep Dive on machine learning techniques
-* 11 (math), 12(best practices), 13(debugging), 25, 26, DS Deep dive, 10 (functions)
+* 13(debugging), 25, 26, DS Deep dive, 10 (functions)
 * lots of days left to learn!!
