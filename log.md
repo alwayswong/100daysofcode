@@ -1,4 +1,11 @@
 # Log
+## **Day 28:** March 7, 2021
+Today's Progress: Began on some API basics. Simple check for sunset and sunrise and ISS position. Work in progress
+
+Thoughts: Options are limitless once you can comfortably interact with APIs
+
+Link: [APIs](projects/API)
+
 ## **Day 27:** March 6, 2021
 Today's Progress: Made a few programs including a calculator which is kind of fun and customizable
 
@@ -203,5 +210,5 @@ Thoughts: Excited to start!
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
 * Deep Dive on machine learning techniques
-* 25, 26, DS Deep dive
+* 25, 26, DS Deep dive, 37, 38, API and interacting with external software will be helpful for real world applications
 * lots of days left to learn!!
