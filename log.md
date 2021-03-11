@@ -1,10 +1,17 @@
 # Log
+## **Day 30:** March 10, 2021
+Today's Progress: Continued with some basic logic challenges. Similar to Karel stuff
+
+Thoughts: Need to plan out the day's challenges better
+
+Link: [GUI](projects/Turtle)
+
 ## **Day 29:** March 9, 2021
-Today's Progress: 
+Today's Progress: Started some GUI building but more importantly the logic behind it
 
 Thoughts: Missed my first day yesterday. Part of the reason is that I haven't gotten clarity on what I want to pursue in the next few days. Will think more about it this weekend.
 
-Link:[GUI](projects/)
+Link: [GUI](projects/Turtle)
 
 ## **Day 28:** March 7, 2021
 Today's Progress: Began on some API basics. Simple check for sunset and sunrise and ISS position. Work in progress
