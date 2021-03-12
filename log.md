@@ -1,4 +1,11 @@
 # Log
+## **Day 31:** March 11, 2021
+Today's Progress: More turtle logic practice. Love how many answers can get you the same result. All about optimization :)
+
+Thoughts: Fun little GUI challenge with turtle module
+
+Link: [GUI](projects/Turtle)
+
 ## **Day 30:** March 10, 2021
 Today's Progress: Continued with some basic logic challenges. Similar to Karel stuff
 
