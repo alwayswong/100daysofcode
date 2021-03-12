@@ -1,10 +1,10 @@
 # Log
 ## **Day 32:** March 12, 2021
-Today's Progress: 
+Today's Progress: More mini turtle games. Basic
 
-Thoughts: 
+Thoughts: Easy, will resume DS route soon
 
-Link: [GUI](projects/Turtle)
+Link: [Games](projects/Turtle2)
 
 ## **Day 31:** March 11, 2021
 Today's Progress: More turtle logic practice. Love how many answers can get you the same result. All about optimization :)
