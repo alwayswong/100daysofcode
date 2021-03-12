@@ -1,4 +1,11 @@
 # Log
+## **Day 32:** March 12, 2021
+Today's Progress: 
+
+Thoughts: 
+
+Link: [GUI](projects/Turtle)
+
 ## **Day 31:** March 11, 2021
 Today's Progress: More turtle logic practice. Love how many answers can get you the same result. All about optimization :)
 
