@@ -1,4 +1,11 @@
 # Log
+## **Day 33:** March 13, 2021
+Today's Progress: Another turtle game - wonder how they programmed the races at Angels games back in the day
+
+Thoughts: Keep on keeping on
+
+Link: [Games](projects/Turtle2)
+
 ## **Day 32:** March 12, 2021
 Today's Progress: More mini turtle games. Basic
 
