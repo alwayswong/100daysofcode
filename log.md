@@ -1,10 +1,17 @@
 # Log
+## **Day 35:** March 15, 2021
+Today's Progress: 
+
+Thoughts: 
+
+Link: [Snake](projects/Snake)
+
 ## **Day 34:** March 14, 2021
 Today's Progress: Part 1 of creating snake. This one is more challenging and some fun logic
 
 Thoughts: Good challenge here
 
-Link: [Snake](projects/newday)
+Link: [Snake](projects/Snake)
 
 ## **Day 33:** March 13, 2021
 Today's Progress: Another turtle game - wonder how they programmed the races at Angels games back in the day
