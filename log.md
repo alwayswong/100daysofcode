@@ -1,8 +1,8 @@
 # Log
 ## **Day 35:** March 16, 2021
-Today's Progress: 
+Today's Progress: Snake game
 
-Thoughts: 
+Thoughts: Fun and challenging project
 
 Link: [Snake](projects/Snake)
 
