@@ -1,5 +1,5 @@
 # Log
-## **Day 35:** March 15, 2021
+## **Day 35:** March 16, 2021
 Today's Progress: 
 
 Thoughts: 
