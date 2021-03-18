@@ -1,4 +1,11 @@
 # Log
+## **Day 36:** March 17, 2021
+Today's Progress: Pong game, part 1
+
+Thoughts: Didn't have a whole lot of time but made the first steps
+
+Link: [Pong](projects/Pong)
+
 ## **Day 35:** March 16, 2021
 Today's Progress: Snake game
 
