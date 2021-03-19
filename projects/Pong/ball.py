@@ -1,6 +1,7 @@
 from turtle import Turtle
+import time
 
-MOVE_AMOUNT = 10
+MOVE_AMOUNT = 20
 
 class Ball(Turtle):
     def __init__(self):
@@ -23,3 +24,8 @@ class Ball(Turtle):
 
     def paddle_bounce(self):
         self.x_move = self.x_move * -1
+
+    def reset_position(self):
+        self.goto(0,0)
+        self.paddle_bounce()
+        time.sleep(1)

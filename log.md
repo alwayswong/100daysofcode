@@ -1,4 +1,11 @@
 # Log
+## **Day 38:** March 19, 2021
+Today's Progress: Finished up Pong game. Challening but fun and getting comforatble with OOP
+
+Thoughts: We move
+
+Link: [Pong](projects/Pong)
+
 ## **Day 37:** March 18, 2021
 Today's Progress: Drilling with OOP to make pong work. Got the paddles and ball and bouncing functionality
 

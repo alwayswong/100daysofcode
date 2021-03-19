@@ -2,6 +2,7 @@ from turtle import Turtle,Screen,distance
 import time
 import paddle
 import ball
+import score
 
 screen = Screen()
 screen.setup(width=800,height=600)
@@ -12,6 +13,11 @@ screen.tracer(0)
 r_paddle = paddle.Paddle((380,0))
 l_paddle = paddle.Paddle((-380,0))
 ball = ball.Ball()
+welcome = score.Scoreboard()
+welcome.thunderdome()
+scoreboard = score.Scoreboard()
+scoreboard.update_scoreboard()
+
 
 
 
@@ -32,8 +38,19 @@ while True:
         ball.bounce()
 
     # ball check with paddle
-    if (ball.distance(r_paddle) < 20 and ball.xcor() > 320) or (ball.distance(r_paddle) < 20 and ball.xcor() < -320):
+    if (ball.distance(r_paddle) < 20 and ball.xcor() > 320) or (ball.distance(l_paddle) < 20 and ball.xcor() < -320):
         ball.paddle_bounce()
+
+    if ball.xcor() > 400:
+    #     # score for the left guy
+        ball.reset_position()
+        scoreboard.left_tally()
+        scoreboard.update_scoreboard()
+    if ball.xcor() < -400:
+    #     #score for the right guy
+        ball.reset_position()
+        scoreboard.right_tally()
+        scoreboard.update_scoreboard()
 
 
 
