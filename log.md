@@ -1,10 +1,10 @@
 # Log
-## **Day 37:** March 19, 2021
-Today's Progress: 
+## **Day 37:** March 18, 2021
+Today's Progress: Drilling with OOP to make pong work
 
-Thoughts: 
+Thoughts: Certainly a lot of effort to make things easy to follow for someone reviewing code, but probably worthwhile down the line
 
-Link:
+Link: [Pong](projects/Pong)
 
 ## **Day 36:** March 17, 2021
 Today's Progress: Pong game, part 1
