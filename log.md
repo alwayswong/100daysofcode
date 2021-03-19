@@ -1,4 +1,11 @@
 # Log
+## **Day 37:** March 19, 2021
+Today's Progress: 
+
+Thoughts: 
+
+Link:
+
 ## **Day 36:** March 17, 2021
 Today's Progress: Pong game, part 1
 
