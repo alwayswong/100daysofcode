@@ -1,6 +1,6 @@
 # Log
 ## **Day 37:** March 18, 2021
-Today's Progress: Drilling with OOP to make pong work
+Today's Progress: Drilling with OOP to make pong work. Got the paddles and ball and bouncing functionality
 
 Thoughts: Certainly a lot of effort to make things easy to follow for someone reviewing code, but probably worthwhile down the line
 
