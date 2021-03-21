@@ -13,6 +13,10 @@ screen.title('Welcome to the Thunderdome!')
 screen.tracer(0)
 
 # Scoreboard
+scoreboard = Scoreboard()
+scoreboard.scoreboard()
+
+
 egg = Scoreboard()
 egg.thunderdome()
 
@@ -45,3 +49,9 @@ while True:
             message.game_over()
             #check for collision
             screen.exitonclick()
+
+    if timmy.ycor() > 300:
+        timmy.starting()
+        scoreboard.increase_level()
+        for car in cars:
+            car.increase_speed()

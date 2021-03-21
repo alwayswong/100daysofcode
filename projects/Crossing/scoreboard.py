@@ -11,6 +11,17 @@ class Scoreboard(turtle.Turtle):
         self.color('white')
         self.hideturtle()
         self.penup()
+        self.level = 1
+
+    def scoreboard(self):
+        self.goto(-280,250)
+        self.write(f'Level: {self.level}',align='left',font=FONT)
+
+    def increase_level(self):
+        self.level += 1
+        self.clear()
+        self.scoreboard()
+
 
     def thunderdome(self):
         self.goto(x=280, y=0)

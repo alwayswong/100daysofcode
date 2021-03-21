@@ -22,3 +22,6 @@ class CarManager(turtle.Turtle):
         new_x = self.xcor() - self.x_move
         self.goto(new_x,self.ycor())
 
+    def increase_speed(self):
+        self.x_move = self.x_move + MOVE_INCREMENT
+
