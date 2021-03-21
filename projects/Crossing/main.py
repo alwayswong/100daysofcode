@@ -3,6 +3,7 @@ from turtle import Screen
 from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
+import random
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -18,10 +19,13 @@ egg.thunderdome()
 # turtles
 timmy = Player()
 
+# cars
+cars = []
+
 # buttons to play with
 screen.listen()
 screen.onkey(timmy.go_up,'Up')
-
+screen.onkey(timmy.go_down,'Down')
 
 
 
@@ -30,3 +34,14 @@ screen.onkey(timmy.go_up,'Up')
 while True:
     time.sleep(0.1)
     screen.update()
+    random_chance = random.randint(1,6)
+    if random_chance == 1:
+        car = CarManager()
+        cars.append(car)
+    for car in cars:
+        car.move()
+        if timmy.distance(car) < 20:
+            message = Scoreboard()
+            message.game_over()
+            #check for collision
+            screen.exitonclick()

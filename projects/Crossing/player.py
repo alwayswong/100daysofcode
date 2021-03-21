@@ -20,3 +20,7 @@ class Player(turtle.Turtle):
     def go_up(self):
         new_y = self.ycor() + MOVE_DISTANCE
         self.goto(x=self.xcor(),y=new_y)
+
+    def go_down(self):
+        new_y = self.ycor() - MOVE_DISTANCE
+        self.goto(x=self.xcor(),y=new_y)

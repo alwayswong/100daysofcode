@@ -16,3 +16,7 @@ class Scoreboard(turtle.Turtle):
         self.goto(x=280, y=0)
         self.write(f'gang shit only',align='right', font=['Courier', 8])
 
+    def game_over(self):
+        self.goto(x=0, y=0)
+        self.write(f'game over.',align='right', font=['Courier', 8])
+
