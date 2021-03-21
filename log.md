@@ -1,4 +1,11 @@
 # Log
+## **Day 39:** March 20, 2021
+Today's Progress: Working on another turtle game to continue drilling.
+
+Thoughts: 
+
+Link: n/a
+
 ## **Day 38:** March 19, 2021
 Today's Progress: Finished up Pong game. Challening but fun and getting comforatble with OOP
 
