@@ -1,10 +1,10 @@
 # Log
 ## **Day 40:** March 21, 2021
-Today's Progress: Adding the cars
+Today's Progress: Turtle game with some eggs
 
-Thoughts: Making progres, might need another day or two
+Thoughts: This was a fun one
 
-Link: n/a
+Link: [Crossing](projects/Crossing)
 
 ## **Day 39:** March 20, 2021
 Today's Progress: Working on another turtle game to continue drilling.
