@@ -1,4 +1,11 @@
 # Log
+## **Day 41:** March 21, 2021
+Today's Progress: Made some turtle optimizations because the levels weren't correctly
+
+Thoughts: Bug hunting
+
+Link: [Crossing](projects/Crossing)
+
 ## **Day 40:** March 21, 2021
 Today's Progress: Turtle game with some eggs
 

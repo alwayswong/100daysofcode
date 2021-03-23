@@ -20,6 +20,9 @@ scoreboard.scoreboard()
 egg = Scoreboard()
 egg.thunderdome()
 
+# car manager
+car_manager = CarManager()
+
 # turtles
 timmy = Player()
 
@@ -32,18 +35,13 @@ screen.onkey(timmy.go_up,'Up')
 screen.onkey(timmy.go_down,'Down')
 
 
-
-
 #game_is_on = True
 while True:
     time.sleep(0.1)
     screen.update()
-    random_chance = random.randint(1,6)
-    if random_chance == 1:
-        car = CarManager()
-        cars.append(car)
+    car_manager.create_car()
+    car_manager.move_cars()
     for car in cars:
-        car.move()
         if timmy.distance(car) < 20:
             message = Scoreboard()
             message.game_over()
@@ -53,5 +51,4 @@ while True:
     if timmy.ycor() > 300:
         timmy.starting()
         scoreboard.increase_level()
-        for car in cars:
-            car.increase_speed()
+        car_manager.level_up()
