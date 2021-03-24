@@ -1,4 +1,11 @@
 # Log
+## **Day 42:** March 21, 2021
+Today's Progress: 
+
+Thoughts: 
+
+Link: 
+
 ## **Day 41:** March 21, 2021
 Today's Progress: Made some turtle optimizations because the levels weren't correctly
 
