@@ -1,10 +1,10 @@
 # Log
-## **Day 42:** March 21, 2021
-Today's Progress: 
+## **Day 42:** March 23, 2021
+Today's Progress: Sending emails
 
-Thoughts: 
+Thoughts: Missed a day but back on track today. Doing basic stuff so I can work up to working with API
 
-Link: 
+Link: [Emails](projects/Email)
 
 ## **Day 41:** March 21, 2021
 Today's Progress: Made some turtle optimizations because the levels weren't correctly
@@ -308,5 +308,5 @@ Thoughts: Excited to start!
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
 * Deep Dive on machine learning techniques
-* 25, 26, DS Deep dive, 37, 38, API and interacting with external software will be helpful for real world applications
+* DS Deep dive, 37, 38, 32+
 * lots of days left to learn!!
