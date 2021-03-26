@@ -41,8 +41,8 @@ while True:
     screen.update()
     car_manager.create_car()
     car_manager.move_cars()
-    for car in cars:
-        if timmy.distance(car) < 20:
+    for car in car_manager.all_cars:
+        if car.distance(timmy) < 20:
             message = Scoreboard()
             message.game_over()
             #check for collision
