@@ -1,4 +1,11 @@
 # Log
+## **Day 44:** March 26, 2021
+Today's Progress: Started on a trivia game, but need to go review tkinter basics before I can complete this.
+
+Thoughts: More work on fundamentals needed..
+
+Link: [Trivia](projects/Trivia)
+
 ## **Day 43:** March 25, 2021
 Today's Progress: Auto-generated happy bday email
 
@@ -315,5 +322,5 @@ Thoughts: Excited to start!
 ## Backlog Project Ideas
 * Automatically book tee times when they are released
 * Deep Dive on machine learning techniques
-* DS Deep dive, 37, 38, 32+
+* DS Deep dive, 37, 38, 32+,17
 * lots of days left to learn!!
