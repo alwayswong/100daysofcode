@@ -1,8 +1,8 @@
 import smtplib
 
-email = 'x@gmail.com'
-recipient = 'jacob.wong@instacart.com'
-password = '1234'
+email = 'x'
+recipient = 'x'
+password = 'x'
 #
 # # with will auto close upon leaving the program
 # with smtplib.SMTP('smtp.gmail.com') as connection:
@@ -22,7 +22,7 @@ dob = dt.datetime(year=1996,month=8,day=21)
 # print(f'My birthday is {dob}')
 
 
-# wednesday motivations
+#
 if dow == 2:
 
     with open('quotes.txt') as q:

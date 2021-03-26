@@ -1,12 +1,19 @@
 # Log
-## **Day 42:** March 23, 2021
+## **Day 43:** March 25, 2021
+Today's Progress: Auto-generated happy bday email
+
+Thoughts: Frankly not as interesting as some of the other projects. As a result, tougher to get through
+
+Link: [Bday](projects/Birthday)
+
+## **Day 42:** March 24, 2021
 Today's Progress: Sending emails
 
 Thoughts: Missed a day but back on track today. Doing basic stuff so I can work up to working with API
 
 Link: [Emails](projects/Email)
 
-## **Day 41:** March 21, 2021
+## **Day 41:** March 22, 2021
 Today's Progress: Made some turtle optimizations because the levels weren't correctly
 
 Thoughts: Bug hunting
