@@ -1,4 +1,11 @@
 # Log
+## **Day 45:** March 28, 2021
+Today's Progress: 
+
+Thoughts: 
+
+Link: 
+
 ## **Day 44:** March 26, 2021
 Today's Progress: Started on a trivia game, but need to go review tkinter basics before I can complete this.
 
