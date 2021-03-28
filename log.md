@@ -1,10 +1,10 @@
 # Log
 ## **Day 45:** March 28, 2021
-Today's Progress: 
+Today's Progress: Drilling on OOP to use for more complex projects
 
-Thoughts: 
+Thoughts: Back to the basics
 
-Link: 
+Link: [Classes](projects/Classes)
 
 ## **Day 44:** March 26, 2021
 Today's Progress: Started on a trivia game, but need to go review tkinter basics before I can complete this.
