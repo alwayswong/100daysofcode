@@ -1,4 +1,11 @@
 # Log
+## **Day 46:** March 30, 2021
+Today's Progress: Drilling on OOP to use for more complex projects
+
+Thoughts: Back to the basics
+
+Link: [Classes](projects/Classes)
+
 ## **Day 45:** March 28, 2021
 Today's Progress: Drilling on OOP to use for more complex projects
 
