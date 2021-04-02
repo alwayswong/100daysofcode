@@ -2,7 +2,7 @@
 ## **Day 46:** April 1, 2021
 Today's Progress: Drilling on OOP to use for more complex projects
 
-Thoughts: Back to the basics
+Thoughts: Still working through OOP
 
 Link: [Classes](projects/Classes)
 
