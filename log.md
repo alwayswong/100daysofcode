@@ -1,8 +1,8 @@
 # Log
-## **Day 46:** April 1, 2021
-Today's Progress: Drilling on OOP to use for more complex projects
+## **Day 46:** April 2, 2021
+Today's Progress: Finished the quiz game
 
-Thoughts: Still working through OOP
+Thoughts: This wasnt hard but just fairly boring of a project which is why it took so long
 
 Link: [Classes](projects/Classes)
 
