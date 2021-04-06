@@ -1,4 +1,11 @@
 # Log
+## **Day 47:** April 6, 2021
+Today's Progress: 
+
+Thoughts: Hitting stalling point. Need to do more planning around projects this weekend
+
+Link:
+
 ## **Day 46:** April 2, 2021
 Today's Progress: Finished the quiz game
 
