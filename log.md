@@ -1,10 +1,10 @@
 # Log
-## **Day 47:** April 6, 2021
-Today's Progress: 
+## **Day 47:** April 8, 2021
+Today's Progress: TBD
 
-Thoughts: Hitting stalling point. Need to do more planning around projects this weekend
+Thoughts: Putting project on pause while I come up with a roadmap for the last 50ish days
 
-Link:
+Link: TBD
 
 ## **Day 46:** April 2, 2021
 Today's Progress: Finished the quiz game
