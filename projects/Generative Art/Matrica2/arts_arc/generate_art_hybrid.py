@@ -44,7 +44,7 @@ def generate_art_hybrid(path: str):
     image_size_y = 2000
     start_color = random_color()
     max_line_width = random.randint(1, 20)
-    shape = random.choice((0, 1, 2))
+    shape = random.choice((1, 1, 1))
     end_color = random_color()
 
     image = Image.new(
@@ -53,11 +53,11 @@ def generate_art_hybrid(path: str):
         color=image_color)
     # Draw some lines on top of the background
     draw = ImageDraw.Draw(image)
+    # make sure that padding is ok for rectangles
     if shape == 2:
         padding_size = random.randint(300, 500)
     else:
         padding_size = random.randint(0, 500)
-
     if shape == 2:
         line_count = random.randint(10, 100)
     else:
@@ -106,7 +106,7 @@ def generate_art_hybrid(path: str):
             overlay_draw.arc(line_xy, start=start_degree, end=end_degree, fill=line_color,
                              width=random.randint(1, max_line_width))
         elif shape == 2:
-            overlay_draw.rectangle(line_xy, fill=rectangle_color, width=random.randint(1, 10))
+            overlay_draw.rectangle((random.randint(0,2000),random.randint(0,2000),random.randint(0,2000),random.randint(0,2000)), fill=rectangle_color, width=random.randint(1000, 1000))
         # overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
         image = ImageChops.add(image, overlay_image)
 
