@@ -6,18 +6,38 @@ def generate_art():
 
     print("Building")
     image_color = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+    image_size_x = 2000
+    image_size_y = 2000
+
     image = Image.new(
         mode='RGBA',
-        size=(2000,2000),
+        size=(image_size_x,image_size_y),
         color=image_color)
     # Draw some lines on top of the background
     draw = ImageDraw.Draw(image)
     line_count = random.randint(1,10)
+    points = []
 
+    # generate points
     for i in range(line_count):
-        point_1 = (random.randint(0,2000), random.randint(0,2000))
-        point_2 = (random.randint(0,2000), random.randint(0,2000))
-        line_xy = (point_1,point_2)
+        point_1 = (
+            random.randint(0,image_size_x),
+            random.randint(0,image_size_y)
+        )
+        #point_2 = (random.randint(0,image_size_x), random.randint(0,image_size_y))
+        points.append(point_1)
+
+
+    # draw points
+    for i, point in enumerate(points):
+        p1 = point
+        if i == len(points) - 1:
+            print('blah')
+            p2 = points[0]
+        else:
+            p2 = points[i + 1]
+
+        line_xy = (p1,p2)
         line_color = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
         draw.line(line_xy,fill=line_color,width=5)
 
