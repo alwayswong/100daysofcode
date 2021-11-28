@@ -29,9 +29,10 @@ def generate_art_arcs(path : str):
     print("Building")
     image_color = (0,0,0)#(random.randint(0,255),random.randint(0,255),random.randint(0,255))
     image_size_x = 2000
-    padding_size = random.randint(200,600)
+    padding_size = random.randint(0,500)
     image_size_y = 2000
     start_color = random_color()
+    max_line_width = random.randint(1,50)
     end_color = random_color()
 
     image = Image.new(
@@ -40,7 +41,7 @@ def generate_art_arcs(path : str):
         color=image_color)
     # Draw some lines on top of the background
     draw = ImageDraw.Draw(image)
-    line_count = random.randint(100,100)
+    line_count = random.randint(1,300)
     points = []
     points_x = []
 
@@ -77,7 +78,7 @@ def generate_art_arcs(path : str):
         line_color = fade(start_color,random_color(),color_factor)
 
         #draw.line(line_xy,fill=line_color,width=random.randint(1,100))
-        overlay_draw.arc(line_xy,start=random.randint(0,360),end=random.randint(0,360),fill=line_color,width=random.randint(1,20))
+        overlay_draw.arc(line_xy,start=random.randint(0,360),end=random.randint(0,360),fill=line_color,width=random.randint(1,max_line_width))
         image = ImageChops.add(image, overlay_image)
 
     #image.filter(ImageFilter.SMOOTH_MORE)
