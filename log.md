@@ -1,4 +1,11 @@
 # Log
+## **Day 48:** November 27, 2021
+Today's Progress: We back with some generative art
+
+Thoughts: Messing around with some art
+
+Link: [Generative Art](projects/Generative%20Art)
+
 ## **Day 47:** April 8, 2021
 Today's Progress: TBD
 
