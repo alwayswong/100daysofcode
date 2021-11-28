@@ -12,6 +12,16 @@ def fade(start_color,end_color,factor: float):
         int(start_color[2] * recip + end_color[2] * factor)
     )
 
+def random_square(x_padding, x_size):
+    choices = []
+    x1 = random.randint(x_padding,x_padding * 2)
+    x2 = random.randint(x_size - (x_padding * 2), (x_size - x_padding))
+    choices.append(x1)
+    choices.append(x2)
+    choice = (random.choice(choices))
+    return choice
+
+
 
 def generate_art_arcs(path : str):
     #print background
@@ -19,7 +29,7 @@ def generate_art_arcs(path : str):
     print("Building")
     image_color = (0,0,0)#(random.randint(0,255),random.randint(0,255),random.randint(0,255))
     image_size_x = 2000
-    padding_size = 200
+    padding_size = random.randint(200,600)
     image_size_y = 2000
     start_color = random_color()
     end_color = random_color()
@@ -32,12 +42,15 @@ def generate_art_arcs(path : str):
     draw = ImageDraw.Draw(image)
     line_count = random.randint(100,100)
     points = []
+    points_x = []
 
     # generate points
     for i in range(line_count):
         point_1 = (
-            random.randint(padding_size,image_size_x - padding_size),
-            random.randint(padding_size,image_size_y - padding_size)
+            random_square(x_padding=padding_size, x_size=image_size_x),
+            random_square(x_padding=padding_size, x_size=image_size_y)
+            # random.randint(padding_size,image_size_x - padding_size),
+            # random.randint(padding_size,image_size_y - padding_size)
         )
         #point_2 = (random.randint(0,image_size_x), random.randint(0,image_size_y))
         points.append(point_1)
@@ -64,7 +77,7 @@ def generate_art_arcs(path : str):
         line_color = fade(start_color,random_color(),color_factor)
 
         #draw.line(line_xy,fill=line_color,width=random.randint(1,100))
-        overlay_draw.arc(line_xy,start=random.randint(0,270),end=random.randint(0,270),fill=line_color,width=random.randint(1,100))
+        overlay_draw.arc(line_xy,start=random.randint(0,360),end=random.randint(0,360),fill=line_color,width=random.randint(1,20))
         image = ImageChops.add(image, overlay_image)
 
     #image.filter(ImageFilter.SMOOTH_MORE)
