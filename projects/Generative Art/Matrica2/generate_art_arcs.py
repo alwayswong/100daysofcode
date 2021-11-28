@@ -14,10 +14,13 @@ def fade(start_color,end_color,factor: float):
 
 def random_square(x_padding, x_size):
     choices = []
-    x1 = random.randint(x_padding,x_padding * 2)
-    x2 = random.randint(x_size - (x_padding * 2), (x_size - x_padding))
+    padding_multiplier = random.randint(2,4)
+    x1 = random.randint(x_padding,x_padding * padding_multiplier)
+    x2 = random.randint(x_size - (x_padding * padding_multiplier), (x_size - x_padding))
+    x3 = random.randint(x_size / 2 - 10, x_size / 2 + 10)
     choices.append(x1)
     choices.append(x2)
+    choices.append(x3)
     choice = (random.choice(choices))
     return choice
 
@@ -32,7 +35,7 @@ def generate_art_arcs(path : str):
     padding_size = random.randint(0,500)
     image_size_y = 2000
     start_color = random_color()
-    max_line_width = random.randint(1,50)
+    max_line_width = random.randint(1,20)
     end_color = random_color()
 
     image = Image.new(
@@ -78,7 +81,9 @@ def generate_art_arcs(path : str):
         line_color = fade(start_color,random_color(),color_factor)
 
         #draw.line(line_xy,fill=line_color,width=random.randint(1,100))
-        overlay_draw.arc(line_xy,start=random.randint(0,360),end=random.randint(0,360),fill=line_color,width=random.randint(1,max_line_width))
+        start_degree = random.randint(0,360)
+        end_degree = start_degree + random.randint(270,360)
+        overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
         image = ImageChops.add(image, overlay_image)
 
     #image.filter(ImageFilter.SMOOTH_MORE)
