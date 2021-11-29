@@ -1,4 +1,11 @@
 # Log
+## **Day 49:** November 28, 2021
+Today's Progress: Tweaking a bunch of the constraints to make an eye theme project
+
+Thoughts: Digitalize
+
+Link: [Generative Art](projects/Generative%20Art)
+
 ## **Day 48:** November 27, 2021
 Today's Progress: We back with some generative art
 
