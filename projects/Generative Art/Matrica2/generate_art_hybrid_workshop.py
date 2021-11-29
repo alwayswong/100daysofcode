@@ -76,9 +76,9 @@ def generate_art_recs(path: str):
     if shape == 2:
         line_count = random.randint(10, 100)
     else:
-        line_count = random.randint(1,300)
+        line_count = random.randint(1,150) # this makes a big difference in output
     points = []
-    points_x = []
+    points_middle = []
 
     # generate points
     for i in range(line_count):
@@ -133,11 +133,11 @@ def generate_art_recs(path: str):
             # random.randint(padding_size,image_size_y - padding_size)
         )
         # point_2 = (random.randint(0,image_size_x), random.randint(0,image_size_y))
-        points.append(point_1)
+        points_middle.append(point_1)
 
     # draw points
-    for i, point in enumerate(points):
-        if i in [0]:
+    for i, point in enumerate(points_middle):
+        if i in [100000000000]:
             pass
         else:
         # overlay lines on each other
@@ -148,11 +148,11 @@ def generate_art_recs(path: str):
             overlay_draw = ImageDraw.Draw(overlay_image)
 
             p1 = point
-            if i == len(points) - 1:
+            if i == len(points_middle) - 1:
                 #print('blah')
-                p2 = points[0]
+                p2 = points_middle[0]
             else:
-                p2 = points[i + 1]
+                p2 = points_middle[i + 1]
 
             line_xy = (p1, p2)
             color_factor = random.randint(0, 10) / 10
