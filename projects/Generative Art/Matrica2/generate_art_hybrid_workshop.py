@@ -153,21 +153,25 @@ def generate_art_recs(path: str):
 
         line_xy = (p1, p2)
         color_factor = random.randint(0, 10) / 10
-        line_color = fade(random_color(), random_color(), color_factor)
+        line_color = fade(start_color, random_color(), color_factor)
         # sub in start_color for random color for same color palette
         rectangle_color = fade(random_color_square(), random_color_square(), color_factor)
 
         # draw.line(line_xy,fill=line_color,width=random.randint(1,100))
         start_degree = random.randint(0, 360)
         end_degree = start_degree + random.randint(270, 360)
-        if shape == 0:
-            overlay_draw.line(line_xy, fill=line_color, width=random.randint(1, max_line_width))
-        elif shape == 1:
-            overlay_draw.arc(line_xy, start=start_degree, end=end_degree, fill=line_color,
-                             width=random.randint(1, max_line_width))
-        elif shape == 2:
-            overlay_draw.rectangle((random.randint(0,2000),random.randint(0,2000),random.randint(0,2000),random.randint(0,2000)), fill=rectangle_color, width=random.randint(1000, 1000))
-        # overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
+        # if shape == 0:
+        #     overlay_draw.line(line_xy, fill=line_color, width=random.randint(1, max_line_width))
+        # elif shape == 1:
+        overlay_draw.arc(
+            line_xy,
+            start=start_degree,
+            end=end_degree,
+            fill=line_color,
+            width=random.randint(1, max_line_width))
+        # elif shape == 2:
+        #     overlay_draw.rectangle((random.randint(0,2000),random.randint(0,2000),random.randint(0,2000),random.randint(0,2000)), fill=rectangle_color, width=random.randint(1000, 1000))
+        # # overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
         image = ImageChops.add(image, overlay_image)
 
     # image.filter(ImageFilter.SMOOTH_MORE)
