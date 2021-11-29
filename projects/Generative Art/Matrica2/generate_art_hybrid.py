@@ -87,7 +87,7 @@ def generate_art_hybrid(path: str):
 
         p1 = point
         if i == len(points) - 1:
-            print('blah')
+            #print('blah')
             p2 = points[0]
         else:
             p2 = points[i + 1]
@@ -111,10 +111,11 @@ def generate_art_hybrid(path: str):
         image = ImageChops.add(image, overlay_image)
 
     # image.filter(ImageFilter.SMOOTH_MORE)
+    print('Art conceived')
     image.save(path)
 
 
 if __name__ == "__main__":
     for i in range(1):
         generate_art_hybrid(
-            f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/test_arc_{i}.png')
+            f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_hybrid/test_arc_{i}.png')
