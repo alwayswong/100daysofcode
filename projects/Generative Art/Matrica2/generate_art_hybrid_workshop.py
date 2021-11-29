@@ -5,8 +5,10 @@ import random
 def random_color():
     return (random.randint(0, 255 / 3), random.randint(0, 255 / 3), random.randint(0, 255 / 3))
 
+
 def random_color_square():
-    return (random.randint(0, round(255 / 20,0)), random.randint(0, round(255 / 20,0)), random.randint(0, round(255 / 20,0)))
+    return (
+    random.randint(0, round(255 / 20, 0)), random.randint(0, round(255 / 20, 0)), random.randint(0, round(255 / 20, 0)))
 
 
 def fade(start_color, end_color, factor: float):
@@ -30,9 +32,10 @@ def random_square(x_padding, x_size, shape):
         pass
     choices.append(x1)
     choices.append(x2)
-    #choices.append(x3)
+    # choices.append(x3)
     choice = (random.choice(choices))
     return choice
+
 
 def random_square_middle(x_padding, x_size, shape):
     # choices = []
@@ -59,7 +62,7 @@ def generate_art_recs(path: str):
     image_size_y = 2000
     start_color = random_color()
     max_line_width = random.randint(1, 20)
-    shape = random.choice((1, 1, 1)) # 0lines,1arcs,2recs
+    shape = random.choice((1, 1, 1))  # 0lines,1arcs,2recs
     end_color = random_color()
 
     image = Image.new(
@@ -76,11 +79,13 @@ def generate_art_recs(path: str):
     if shape == 2:
         line_count = random.randint(10, 100)
     else:
-        line_count = random.randint(1,150) # this makes a big difference in output
+        line_count = random.randint(1, 300)  # this makes a big difference in output
+
+    line_count_middle = random.randint(1, 300)
     points = []
     points_middle = []
 
-    # generate points
+    # generate points for outer circle
     for i in range(line_count):
         point_1 = (
             random_square(x_padding=padding_size, x_size=image_size_x, shape=shape),
@@ -91,7 +96,7 @@ def generate_art_recs(path: str):
         # point_2 = (random.randint(0,image_size_x), random.randint(0,image_size_y))
         points.append(point_1)
 
-    # draw points
+    # draw points for the outer circle
     for i, point in enumerate(points):
         # overlay lines on each other
         overlay_image = Image.new(
@@ -102,7 +107,7 @@ def generate_art_recs(path: str):
 
         p1 = point
         if i == len(points) - 1:
-            #print('blah')
+            # print('blah')
             p2 = points[0]
         else:
             p2 = points[i + 1]
@@ -121,11 +126,14 @@ def generate_art_recs(path: str):
             overlay_draw.arc(line_xy, start=start_degree, end=end_degree, fill=line_color,
                              width=random.randint(1, max_line_width))
         elif shape == 2:
-            overlay_draw.rectangle((random.randint(0,2000),random.randint(0,2000),random.randint(0,2000),random.randint(0,2000)), fill=rectangle_color, width=random.randint(1000, 1000))
+            overlay_draw.rectangle(
+                (random.randint(0, 2000), random.randint(0, 2000), random.randint(0, 2000), random.randint(0, 2000)),
+                fill=rectangle_color, width=random.randint(1000, 1000))
         # overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
         image = ImageChops.add(image, overlay_image)
 
-    for i in range(line_count):
+    # generate points for the middle circle
+    for i in range(line_count_middle):
         point_1 = (
             random_square_middle(x_padding=padding_size, x_size=image_size_x, shape=shape),
             random_square_middle(x_padding=padding_size, x_size=image_size_y, shape=shape)
@@ -135,12 +143,12 @@ def generate_art_recs(path: str):
         # point_2 = (random.randint(0,image_size_x), random.randint(0,image_size_y))
         points_middle.append(point_1)
 
-    # draw points
+    # draw points for the middle cirlce
     for i, point in enumerate(points_middle):
         if i in [100000000000]:
             pass
         else:
-        # overlay lines on each other
+            # overlay lines on each other
             overlay_image = Image.new(
                 mode='RGBA',
                 size=(image_size_x, image_size_y),
@@ -149,7 +157,7 @@ def generate_art_recs(path: str):
 
             p1 = point
             if i == len(points_middle) - 1:
-                #print('blah')
+                # print('blah')
                 p2 = points_middle[0]
             else:
                 p2 = points_middle[i + 1]
