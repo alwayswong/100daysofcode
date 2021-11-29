@@ -53,7 +53,7 @@ def random_square_middle(x_padding, x_size, shape):
 def generate_art_recs(path: str):
     # print background
 
-    print("Building")
+    print("building...")
     image_color = (0, 0, 0)  # (random.randint(0,255),random.randint(0,255),random.randint(0,255))
     image_size_x = 2000
     image_size_y = 2000
@@ -171,7 +171,7 @@ def generate_art_recs(path: str):
         image = ImageChops.add(image, overlay_image)
 
     # image.filter(ImageFilter.SMOOTH_MORE)
-    print('Art conceived')
+    print('art conceived!')
     image.save(path)
 
 
