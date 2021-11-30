@@ -5,10 +5,8 @@ import random
 def random_color():
     return (random.randint(0, 255 / 3), random.randint(0, 255 / 3), random.randint(0, 255 / 3))
 
-
 def random_color_square():
-    return (
-    random.randint(0, round(255 / 20, 0)), random.randint(0, round(255 / 20, 0)), random.randint(0, round(255 / 20, 0)))
+    return (random.randint(0, round(255 / 20,0)), random.randint(0, round(255 / 20,0)), random.randint(0, round(255 / 20,0)))
 
 
 def fade(start_color, end_color, factor: float):
@@ -32,37 +30,25 @@ def random_square(x_padding, x_size, shape):
         pass
     choices.append(x1)
     choices.append(x2)
-    # choices.append(x3)
+    #choices.append(x3)
     choice = (random.choice(choices))
     return choice
 
-
 def random_square_middle(x_padding, x_size, shape):
-    # choices = []
-    # padding_multiplier = random.randint(2, 2)
-    # x1 = random.randint(x_size / 2 - 100, x_size / 2 - 100)
-    # #x2 = random.randint(x_size - (x_padding * padding_multiplier), (x_size - x_padding))
-    # if shape == 2:
-    #     x3 = random.randint(x_size / 2 - 10, x_size / 2 + 10)
-    # else:
-    #     pass
-    # choices.append(x1)
-    # #choices.append(x2)
-    # #choices.append(x3)
-    choice = random.randint(x_size / 2 - 100, x_size / 2 + 100)
+
+    choice = random.randint(x_size / 2 - random.randint(90,110), x_size / 2 + random.randint(90,110))
     return choice
 
 
 def generate_art_recs(path: str):
     # print background
-
     print("building...")
-    image_color = (0, 0, 0)  # (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+    image_color = (0, 0, 0)  # black background
     image_size_x = 2000
     image_size_y = 2000
     start_color = random_color()
     max_line_width = random.randint(1, 20)
-    shape = random.choice((1, 1, 1))  # 0lines,1arcs,2recs
+    shape = random.choice((1, 1, 1)) # 0lines,1arcs,2recs
     end_color = random_color()
 
     image = Image.new(
@@ -71,17 +57,10 @@ def generate_art_recs(path: str):
         color=image_color)
     # Draw some lines on top of the background
     draw = ImageDraw.Draw(image)
-    # make sure that padding is ok for rectangles
-    if shape == 2:
-        padding_size = random.randint(300, 500)
-    else:
-        padding_size = random.randint(0, 500)
-    if shape == 2:
-        line_count = random.randint(10, 100)
-    else:
-        line_count = random.randint(1, 300)  # this makes a big difference in output
+    padding_size = random.randint(0, 500)
+    line_count = random.randint(1,300) # this makes a big difference in output
+    line_count_middle = random.randint(1,300)
 
-    line_count_middle = random.randint(1, 300)
     points = []
     points_middle = []
 
@@ -107,7 +86,7 @@ def generate_art_recs(path: str):
 
         p1 = point
         if i == len(points) - 1:
-            # print('blah')
+            #print('blah')
             p2 = points[0]
         else:
             p2 = points[i + 1]
@@ -120,16 +99,14 @@ def generate_art_recs(path: str):
         # draw.line(line_xy,fill=line_color,width=random.randint(1,100))
         start_degree = random.randint(0, 360)
         end_degree = start_degree + random.randint(270, 360)
-        if shape == 0:
-            overlay_draw.line(line_xy, fill=line_color, width=random.randint(1, max_line_width))
-        elif shape == 1:
-            overlay_draw.arc(line_xy, start=start_degree, end=end_degree, fill=line_color,
+        # if shape == 0:
+        #     overlay_draw.line(line_xy, fill=line_color, width=random.randint(1, max_line_width))
+        # elif shape == 1:
+        overlay_draw.arc(line_xy, start=start_degree, end=end_degree, fill=line_color,
                              width=random.randint(1, max_line_width))
-        elif shape == 2:
-            overlay_draw.rectangle(
-                (random.randint(0, 2000), random.randint(0, 2000), random.randint(0, 2000), random.randint(0, 2000)),
-                fill=rectangle_color, width=random.randint(1000, 1000))
-        # overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
+        # elif shape == 2:
+        #     overlay_draw.rectangle((random.randint(0,2000),random.randint(0,2000),random.randint(0,2000),random.randint(0,2000)), fill=rectangle_color, width=random.randint(1000, 1000))
+
         image = ImageChops.add(image, overlay_image)
 
     # generate points for the middle circle
@@ -148,7 +125,7 @@ def generate_art_recs(path: str):
         if i in [100000000000]:
             pass
         else:
-            # overlay lines on each other
+        # overlay lines on each other
             overlay_image = Image.new(
                 mode='RGBA',
                 size=(image_size_x, image_size_y),
@@ -157,7 +134,7 @@ def generate_art_recs(path: str):
 
             p1 = point
             if i == len(points_middle) - 1:
-                # print('blah')
+                #print('blah')
                 p2 = points_middle[0]
             else:
                 p2 = points_middle[i + 1]
@@ -168,21 +145,16 @@ def generate_art_recs(path: str):
             # sub in start_color for random color for same color palette
             rectangle_color = fade(random_color_square(), random_color_square(), color_factor)
 
-            # draw.line(line_xy,fill=line_color,width=random.randint(1,100))
             start_degree = random.randint(0, 360)
             end_degree = start_degree + random.randint(270, 360)
-            # if shape == 0:
-            #     overlay_draw.line(line_xy, fill=line_color, width=random.randint(1, max_line_width))
-            # elif shape == 1:
+
             overlay_draw.arc(
                 line_xy,
                 start=start_degree,
                 end=end_degree,
                 fill=line_color,
                 width=random.randint(1, max_line_width))
-            # elif shape == 2:
-            #     overlay_draw.rectangle((random.randint(0,2000),random.randint(0,2000),random.randint(0,2000),random.randint(0,2000)), fill=rectangle_color, width=random.randint(1000, 1000))
-            # # overlay_draw.arc(line_xy,start=start_degree,end=end_degree,fill=line_color,width=random.randint(1,max_line_width))
+
             image = ImageChops.add(image, overlay_image)
 
     # image.filter(ImageFilter.SMOOTH_MORE)
