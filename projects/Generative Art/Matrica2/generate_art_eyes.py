@@ -165,4 +165,4 @@ def generate_art_recs(path: str):
 if __name__ == "__main__":
     for i in range(1):
         generate_art_recs(
-            f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_recs/test_arc_{i}.png')
+            f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/test_arc_{i}.png')
