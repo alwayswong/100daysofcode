@@ -140,6 +140,7 @@ def generate_art_recs(path: str):
                 p2 = points_middle[i + 1]
 
             line_xy = (p1, p2)
+
             color_factor = random.randint(0, 10) / 10
             line_color = fade(start_color, random_color(), color_factor)
             # sub in start_color for random color for same color palette
