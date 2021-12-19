@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
+from PIL.PngImagePlugin import  PngImageFile, PngInfo
 import random
 
 
@@ -158,12 +159,20 @@ def generate_art_recs(path: str):
 
             image = ImageChops.add(image, overlay_image)
 
-    # image.filter(ImageFilter.SMOOTH_MORE)
+    metadata = PngInfo()
+    # start color, padding size, outside line count, inside line count
+    metadata.add_text("start color",str(start_color)) #,padding_size,line_count,line_count_middle)
+    metadata.add_text("padding size", str(padding_size))
+    metadata.add_text("outside line count", str(line_count))
+    metadata.add_text("inside line count", str(line_count_middle))
     print('art conceived!')
-    image.save(path)
-
+    image.save(path, pnginfo=metadata)
+    #print(image.text)
 
 if __name__ == "__main__":
     for i in range(1):
         generate_art_recs(
             f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/test_arc_{i}.png')
+        art = Image.open(f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/test_arc_{i}.png')
+        print(art.text)
+
