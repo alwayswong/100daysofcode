@@ -1,4 +1,11 @@
 # Log
+## **Day 50-52:** December 17-19, 2021
+Today's Progress: Finalizing the constraints and adding metadata
+
+Thoughts: Digitalize :)
+
+Link: [Generative Art](projects/Generative%20Art)
+
 ## **Day 49:** November 28, 2021
 Today's Progress: Tweaking a bunch of the constraints to make an eye theme project
 
