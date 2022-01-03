@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
 from PIL.PngImagePlugin import  PngImageFile, PngInfo
 import random
+import json
 
 
 def random_color():
@@ -167,12 +168,68 @@ def generate_art_recs(path: str):
     metadata.add_text("inside line count", str(line_count_middle))
     print('art conceived!')
     image.save(path, pnginfo=metadata)
-    #print(image.text)
+
+def get_metadata(mint_number, md):
+    data = {
+  "name": f"Sol Eyes {mint_number}",
+  "symbol": "",
+  "description": "Eyes to the Metaverse",
+  "seller_fee_basis_points": 500,
+  "image": "image.png",
+  "attributes": [
+    {
+      "attribute_type": "start color",
+      "value": md["start color"]
+    },
+    {
+      "attribute_type": "padding size",
+      "value": md["padding size"]
+    },
+    {
+      "attribute_type": "outside line count",
+      "value": md["outside line count"]
+    },
+    {
+      "attribute_type": "inside line count",
+      "value": md["inside line count"]
+    }
+  ],
+  "collection": {
+     "name": "Sol Eyes",
+     "family": "Genesis? ;)"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "597soahnHpiDrgwpFPxupcMxcM1EtW4nBXvS9hRoZXJZ",
+        "share": 100
+      }
+    ]
+  }
+}
+
+    with open(f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.json', 'w') as f:
+        json.dump(data, f)
+
+
 
 if __name__ == "__main__":
     for i in range(1):
         generate_art_recs(
             f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.png')
         art = Image.open(f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.png')
-        #print(art.text)
+
+        get_metadata(i,art.text)
+        #art = Image.open(
+        #    f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.json')
+
+        #metadata = art.text
+        print(art.text)
 
