@@ -172,25 +172,25 @@ def generate_art_recs(path: str):
 def get_metadata(mint_number, md):
     data = {
   "name": f"Sol Eyes {mint_number}",
-  "symbol": "",
-  "description": "Eyes to the Metaverse",
+  "symbol": "0_0",
+  "description": "Eyes are how we perceive the world. See beauty in the chaos.",
   "seller_fee_basis_points": 500,
   "image": "image.png",
   "attributes": [
     {
-      "attribute_type": "start color",
+      "trait_type": "start color",
       "value": md["start color"]
     },
     {
-      "attribute_type": "padding size",
+      "trait_type": "padding size",
       "value": md["padding size"]
     },
     {
-      "attribute_type": "outside line count",
+      "trait_type": "outside line count",
       "value": md["outside line count"]
     },
     {
-      "attribute_type": "inside line count",
+      "trait_type": "inside line count",
       "value": md["inside line count"]
     }
   ],
