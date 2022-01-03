@@ -172,7 +172,7 @@ def generate_art_recs(path: str):
 if __name__ == "__main__":
     for i in range(1):
         generate_art_recs(
-            f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/test_arc_{i}.png')
-        art = Image.open(f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/test_arc_{i}.png')
-        print(art.text)
+            f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.png')
+        art = Image.open(f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.png')
+        #print(art.text)
 
