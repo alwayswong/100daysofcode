@@ -208,7 +208,7 @@ def get_metadata(mint_number, md):
     "category": "image",
     "creators": [
       {
-        "address": "597soahnHpiDrgwpFPxupcMxcM1EtW4nBXvS9hRoZXJZ",
+        "address": "ByhaZd6WrswPjAxdTtnMaNpvGspHLWuu3NNf8HpEoTjS",
         "share": 100
       }
     ]
