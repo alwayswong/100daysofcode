@@ -1,4 +1,11 @@
 # Log
+## **Day 53-60:** December 20, 2021-January 8, 2022
+Today's Progress: Bringing this to life. Fixed metadata, generating final images, etc.
+
+Thoughts: Loading ...
+
+Link: [Generative Art](projects/Generative%20Art)
+
 ## **Day 50-52:** December 17-19, 2021
 Today's Progress: Finalizing the constraints and adding metadata
 
