@@ -208,7 +208,7 @@ def get_metadata(mint_number, md):
     "category": "image",
     "creators": [
       {
-        "address": "ByhaZd6WrswPjAxdTtnMaNpvGspHLWuu3NNf8HpEoTjS",
+        "address": "3JQYMeDGQU26HSuh4YyWrHEmGk3Y6wsNWUWu3gNZBJTJ",
         "share": 100
       }
     ]
@@ -221,7 +221,7 @@ def get_metadata(mint_number, md):
 
 
 if __name__ == "__main__":
-    for i in range(10):
+    for i in range(222):
         generate_art_recs(
             f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.png')
         art = Image.open(f'/Users/jacobwong/PycharmProjects/100daysofcode/projects/Generative Art/Matrica2/arts_arc/{i}.png')
